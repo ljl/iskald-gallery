@@ -1,0 +1,30 @@
+.gallery {
+  position: relative;
+}
+.gallery button {
+  position: absolute;
+  top: 50%;
+  background-image: url('../img/arrow-right.svg');
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  background-color: white;
+  border: 10px solid white;
+}
+.gallery button.next {
+  right: 20px;
+}
+.gallery button.prev {
+  transform: rotate(180deg);
+  left: 20px;
+}
+.gallery img {
+  display: none;
+}
+.gallery img.active {
+  display: block;
+}

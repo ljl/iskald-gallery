@@ -2,6 +2,8 @@
 
 No animations, no bullshit, just a gallery.
 
+Demo: http://ljl.github.io/iskald-gallery/
+
 Usage:
 HTML
 ```
